@@ -19,14 +19,14 @@ Before you begin, ensure you have met the following requirements:
 2. **Install dependencies:**
 
     ```bash
-    npm install
+    npm install express mongoose body-parser dotenv
     ```
 
 3. **Create a `.env` file in the root directory and add your MongoDB URI and any other environment variables:**
 
     ```
     MONGODB_URI=your_mongodb_uri
-    PORT=3000
+    PORT=5000
     ```
 
 ## Usage
