@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URI);
 mongoose.connection.once('open',()=>{
     console.log('connected to MongoDB database');
 });
-
+//productRouter
 app.use('/api',productRoutes);
 
 //userRoute added
