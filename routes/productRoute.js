@@ -1,7 +1,6 @@
 const express=require('express');
 const router=express.Router();
 const Product=require('../models/productModel');
-
 const app=express();
 
 router.post('/products',async(req,res)=>{
