@@ -23,7 +23,6 @@ router.get('/products',async(req,res)=>{
 });
 
 
-
 router.get('/product:id',async(req,res)=>{
     const _id=req.params.id;
     const product=await Product.findById(_id);
